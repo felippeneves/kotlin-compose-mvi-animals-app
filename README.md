@@ -47,7 +47,7 @@ This project aims to:
 
 | Category | Library |
 |----------|---------|
-| **Language** | Kotlin 1.9.x, Coroutines |
+| **Language** | Kotlin 2.0.0, Coroutines |
 | **UI** | Jetpack Compose, Material3 |
 | **Architecture** | ViewModel, StateFlow, MVI |
 | **DI** | Dagger Hilt |
