@@ -36,7 +36,7 @@ This project aims to:
 
 | UI | Domain | Data |
 | --- | --- | --- |
-| • Compose screens with state-hoisting<br>• Material 3 theming | • Use cases orchestrating business logic | • REST consumption via Retrofit<br>• Future local cache (Room) |
+| • Compose screens with state-hoisting<br>• Material 3 theming<br>• Skeleton versions for all Composable components | • Use cases orchestrating business logic | • REST consumption via Retrofit<br>• Future local cache (Room) |
 | • Loading / error placeholders | • Immutable result modeling | • Repository & data abstraction |
 | • Animal detail taxonomy view | • Separation of concerns | • Dispatcher configuration |
 
@@ -60,8 +60,8 @@ This project aims to:
 
 <pre>
 📦 kotlin-compose-mvi-animals-app
- ┣ 📂 core                 ← Common utilities, models, result wrappers
- ┣ 📂 data                 ← DTOs, services, repository implementation
+ ┣ 📂 core                 ← Common utilities, models, result wrappers, extensions
+ ┣ 📂 data                 ← DTOs, services, repository implementation, mappers
  ┣ 📂 di                   ← Hilt modules for DI
  ┣ 📂 domain              ← Business logic: use cases and interfaces
  ┣ 📂 presentation        ← Compose UI, MVI ViewModels and state
