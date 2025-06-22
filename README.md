@@ -1,7 +1,8 @@
 # 🐾 Kotlin Compose MVI Animals App
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9%2B-purple?logo=kotlin)](https://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-blue.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-blue?logo=android)](https://developer.android.com/jetpack/compose)
+[![MVI](https://img.shields.io/badge/MVI-Architecture-orange.svg)](https://en.wikipedia.org/wiki/Model–view–intent)
 [![Dagger Hilt](https://img.shields.io/badge/Dagger%20Hilt-DI-brightgreen?logo=dagger)](https://dagger.dev/hilt)
 
 A hands-on Android project demonstrating **MVI (Model–View–Intent)**, **Clean Architecture**, and **SOLID** principles using **Jetpack Compose** and **Dagger Hilt** for dependency injection.
@@ -88,9 +89,25 @@ Open in Android Studio (Iguana or newer) and run the `app` module on an emulator
 
 ---
 
+## 📸 Screenshots
+
+### 🦁 Animal List Screens
+
+| List Screen | Loading Screen |
+|-------------|----------------|
+| <img src="screenshots/001_animal_list_screen.png" width="400"/> | <img src="screenshots/002_animal_list_loading_screen.png" width="400"/> |
+
+### 🦁 Animal Details Screen
+
+| List Screen | Loading Screen |
+|-------------|----------------|
+| <img src="screenshots/003_animal_details_screen.png" width="400"/> | <img src="screenshots/004_animal_details_loading_screen.png" width="400"/> |
+
+---
+
 ## 🛣 Road-map
 
-- [X] ✅ Basic animal listing and detail view
+- [X] ✅ Animal listing and detail view
 - [ ] 🧪 Add unit tests for use cases and viewmodels
 - [ ] 🧪 Add integration tests with UI testing
 - [ ] 🔁 Add Room for local cache
