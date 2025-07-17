@@ -108,7 +108,7 @@ Open in Android Studio (Iguana or newer) and run the `app` module on an emulator
 ## 🛣 Road-map
 
 - [X] ✅ Animal listing and detail view
-- [ ] 🧪 Add unit tests for use cases and viewmodels
+- [X] 🧪 Add unit tests for use cases and viewmodels
 - [ ] 🧪 Add integration tests with UI testing
 - [ ] 🔁 Add Room for local cache
 - [ ] 🏗️ Setup GitHub Actions CI/CD pipeline
