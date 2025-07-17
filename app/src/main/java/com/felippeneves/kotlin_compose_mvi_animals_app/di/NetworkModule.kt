@@ -1,6 +1,6 @@
 package com.felippeneves.kotlin_compose_mvi_animals_app.di
 
-import com.felippeneves.kotlin_compose_mvi_animals_app.core.ApiUtil
+import com.felippeneves.kotlin_compose_mvi_animals_app.core.utils.ApiUtil
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

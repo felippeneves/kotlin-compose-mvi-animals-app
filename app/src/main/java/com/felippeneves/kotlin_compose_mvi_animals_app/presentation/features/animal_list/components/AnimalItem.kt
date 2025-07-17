@@ -19,7 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.felippeneves.kotlin_compose_mvi_animals_app.core.ApiUtil
+import com.felippeneves.kotlin_compose_mvi_animals_app.core.utils.ApiUtil
 import com.felippeneves.kotlin_compose_mvi_animals_app.core.extensions.shimmer
 import com.felippeneves.kotlin_compose_mvi_animals_app.domain.model.Animal
 import com.felippeneves.kotlin_compose_mvi_animals_app.presentation.components.SmartImage
